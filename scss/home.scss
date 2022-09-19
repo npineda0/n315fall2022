@@ -1,0 +1,44 @@
+.home {
+    //margin-top: 30px;
+
+    .hero {
+        min-width: 850px;
+        height: 230px;
+        background-image: url("/images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .flowerRow {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        .flowerTxt {
+            width: 400px;
+            letter-spacing: 1px;
+        }
+
+        .flowerImg {
+            width: 400px;
+            height: 400px;
+            background-image: url("/images/bouquet1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .flowerImgTwo {
+            width: 400px;
+            height: 400px;
+            background-image: url("/images/bouquet2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

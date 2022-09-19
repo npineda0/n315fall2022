@@ -1,0 +1,56 @@
+.about {
+    margin-top: 40px;
+
+    .aboutIntro {
+        letter-spacing: 1px;
+        width: 700px;
+        //0 is for top and bottom, auto is for left and right 
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .aboutHeader {
+        font-weight: bold;
+        font-size: 23px;
+        margin-top: 50px;
+        margin-left: 120px;
+
+    }
+
+    .aboutInfo {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        
+        .aboutImg {
+            height: 150px;
+            width: 150px;
+            background-image: url("/images/aboutFish.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+
+        .aboutImg2 {
+            height: 150px;
+            width: 150px;
+            background-image: url("/images/aboutSheep.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+        }
+
+        .aboutInfoTxt {
+            width: 400px;
+            letter-spacing: 1px;
+
+            .aboutName {
+                font-weight: bold;
+            }
+        }
+    }
+}

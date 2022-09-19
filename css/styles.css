@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #D59E78;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home .hero {
+  min-width: 850px;
+  height: 230px;
+  background-image: url("/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .flowerRow {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .flowerRow .flowerTxt {
+  width: 400px;
+  letter-spacing: 1px;
+}
+.home .flowerRow .flowerImg {
+  width: 400px;
+  height: 400px;
+  background-image: url("/images/bouquet1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home .flowerRow .flowerImgTwo {
+  width: 400px;
+  height: 400px;
+  background-image: url("/images/bouquet2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about {
+  margin-top: 40px;
+}
+.about .aboutIntro {
+  letter-spacing: 1px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about .aboutHeader {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.about .aboutInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.about .aboutInfo .aboutImg {
+  height: 150px;
+  width: 150px;
+  background-image: url("/images/aboutFish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.about .aboutInfo .aboutImg2 {
+  height: 150px;
+  width: 150px;
+  background-image: url("/images/aboutSheep.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.about .aboutInfo .aboutInfoTxt {
+  width: 400px;
+  letter-spacing: 1px;
+}
+.about .aboutInfo .aboutInfoTxt .aboutName {
+  font-weight: bold;
+}
+
+.products .productsHero {
+  min-width: 850px;
+  height: 230px;
+  background-image: url("/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .productsHeader {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.products .productsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.products .productsRow .productItem {
+  margin-top: 40px;
+  width: 200px;
+}
+.products .productsRow .productItem .itemImg {
+  height: 250px;
+  width: 200px;
+  background-image: url("/images/itemOne.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .productsRow .productItem .itemImg2 {
+  height: 250px;
+  width: 200px;
+  background-image: url("/images/itemTwo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .productsRow .productItem .itemImg3 {
+  height: 250px;
+  width: 200px;
+  background-image: url("/images/itemThree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.products .productsRow .productItem .itemTxt {
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.products .productsRow .productItem .itemTxt .itemBtn {
+  height: 30px;
+  width: 80px;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #D95A55;
+  border-radius: 20px;
+  border: 1px solid #D95A55;
+}
+
+.contact {
+  margin-top: 40px;
+}
+.contact .contactMapForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact .contactMapForm .mapImg {
+  height: 400px;
+  width: 300px;
+  background-image: url("/images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact .contactMapForm .contactForm {
+  width: 600px;
+}
+.contact .contactMapForm .contactForm .longBox {
+  width: 450px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 21px;
+}
+.contact .contactMapForm .contactForm .bigBox {
+  width: 450px;
+  height: 150px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 21px;
+}
+.contact .contactMapForm .contactForm ::placeholder {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+}
+.contact .contactMapForm .contactForm button {
+  width: 150px;
+  height: 40px;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #D95A55;
+  border: 1px solid #D95A55;
+}
+
+footer {
+  margin-top: 100px;
+  height: 50px;
+  min-width: 600px;
+  background-color: #D59E78;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

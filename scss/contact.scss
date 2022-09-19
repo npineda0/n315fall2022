@@ -1,0 +1,54 @@
+.contact {
+    margin-top: 40px;
+
+    .contactMapForm {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        .mapImg {
+            height: 400px;
+            width: 300px;
+            background-image: url("/images/map.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .contactForm {
+            width: 600px;
+
+            .longBox {
+                width: 450px;
+                height: 60px;
+                background-color: #F5F5F5;
+                border: 1px solid #F5F5F5;
+                margin-bottom: 21px;
+            }
+
+            .bigBox {
+                width: 450px;
+                height: 150px;
+                background-color: #F5F5F5;
+                border: 1px solid #F5F5F5;
+                margin-bottom: 21px;
+            }
+
+            ::placeholder {
+                position: absolute;
+                top: 21px;
+                left: 21px;
+            }
+
+            button {
+                width: 150px;
+                height: 40px;
+                letter-spacing: 1px;
+                color: #fff;
+                border-radius: 20px;
+                background-color: #D95A55;
+                border: 1px solid #D95A55;
+            }
+        }
+    }
+}

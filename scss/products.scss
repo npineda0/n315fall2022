@@ -1,0 +1,75 @@
+.products {
+
+    .productsHero {
+        min-width: 850px;
+        height: 230px;
+        background-image: url("/images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .productsHeader {
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+    .productsRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        
+        .productItem {
+            //margin-left: 100px;
+            margin-top: 40px;
+            width: 200px;
+
+            .itemImg {
+                height: 250px;
+                width: 200px;
+                background-image: url("/images/itemOne.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .itemImg2 {
+                height: 250px;
+                width: 200px;
+                background-image: url("/images/itemTwo.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .itemImg3 {
+                height: 250px;
+                width: 200px;
+                background-image: url("/images/itemThree.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .itemTxt {
+                text-align: center;
+                margin-top: 20px;
+                letter-spacing: 1px;
+
+                .itemBtn {
+                    height: 30px;
+                    width: 80px;
+                    letter-spacing: 1px;
+                    color: #fff;
+                    background-color: #D95A55;
+                    border-radius: 20px;
+                    border: 1px solid #D95A55;
+                }
+            }
+        }
+    }
+}
